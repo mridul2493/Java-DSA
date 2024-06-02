@@ -1,1 +1,1 @@
-# Tutorial 1 / Practice 1 JavaDSA
+# Learning Java and DSA , practice codes and daily learning.

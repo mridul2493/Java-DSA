@@ -32,6 +32,32 @@ public class Tutorial1{
         // so basically short<int<long
         short sh = 12345;
         // short can hold an integer of digits = 5, int can hold an integer of digits = 10, long can hold an integer of digits = 19
-        
+        int i1=sc.nextInt();
+        System.out.println("Integer entered = "+i1);
+        System.out.print("Enter your registraion number = ");
+        String reg = sc.next();
+        System.out.println("Your Registration Number is = "+reg);
+        // System.out.println() is used for writing the next sentence in new line 
+        // System.out.print() is used for writing in the same line
+        float f1=10;
+        System.out.println(f1);
+        // we entered f1 =10 (as an integer) but sout gives 10.0 :- casting
+        //Type conversion (when one type of data is assigned to other type of variable)
+        // For example :-
+        float f2 = sc.nextFloat();
+        System.out.println(f2);
+        // for type conversion there are two rules :-
+        // 1. destination type should be greater than source type (float is greater than int)
+        // 2. the data should be compatible , 
+        //for example 10= 10.0=10.00, but we cant store string or character data into float type as float values and string values are not at all compatible
+        // if you are asking for integer and giving float this will not work
+        // but if you are asking for float and giving integer than it will work
+        // java performs automatic type conversion
+        // TypeCasting :- narrowing conversion (forcefully converting type)
+        int num = (int)(34.89f);        // it will only give the integer value of 34.89
+        System.out.println(num);        //This is known as typecasting
+        // java follows unicode :- multiple languages can be printed like hindi, chinese etc
+        String phrase = "आप कैसे हैं";
+        System.out.println(phrase);
     }
 }

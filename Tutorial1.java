@@ -18,7 +18,7 @@ public class Tutorial1{
         char letter = 'm';
         float marks = 95.78f;
         double d1 = 45678.8978654D;     //Large decimal numbers
-        long l1 = 123456789000L;        //Large Integer Values
+        long l1 = 1234567890123456789L;        //Large Integer Values
         boolean b1= true;
         boolean b2 = false;
         // maximum size of data types
@@ -26,5 +26,12 @@ public class Tutorial1{
         // double and long = 8 bytes
         // char = 16 bytes
         // byte = 1 byte
+        // short = 2 bytes
+        // boolean = 1 bit
+        // short data type is a shorter version of int data type 
+        // so basically short<int<long
+        short sh = 12345;
+        // short can hold an integer of digits = 5, int can hold an integer of digits = 10, long can hold an integer of digits = 19
+        
     }
 }

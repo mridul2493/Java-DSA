@@ -14,7 +14,7 @@ public class Tutorial1{
         // DataTypes
         // Primitive data types cannot be breaken down any further : Integer,float,Character,short,long,double,boolean,byte
         int age = 18;
-        String name = "Yadav";  //String is not a primitive data type (collection of characters)
+        String name = "Yadav";          //String is not a primitive data type (collection of characters)
         char letter = 'm';
         float marks = 95.78f;
         double d1 = 45678.8978654D;     //Large decimal numbers
@@ -22,7 +22,7 @@ public class Tutorial1{
         boolean b1= true;
         boolean b2 = false;
         // maximum size of data types
-        //int and float = 4 bytes of data 
+        // int and float = 4 bytes of data 
         // double and long = 8 bytes
         // char = 16 bytes
         // byte = 1 byte
